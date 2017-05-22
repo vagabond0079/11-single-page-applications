@@ -85,7 +85,6 @@ var app = app || {};
     articleView.populateFilters();
     articleView.handleCategoryFilter();
     articleView.handleAuthorFilter();
-    articleView.handleMainNav();
     articleView.setTeasers();
     $('pre code').each((i, block) => hljs.highlightBlock(block));
   };
